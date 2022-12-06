@@ -502,7 +502,7 @@ footer .footer-content__leftside__logo-link {
   margin-bottom: 25px;
 }
 
-.footer-content__leftside__nav-list__link nav-link:hover{
+.footer-content__leftside__nav-list__link:hover{
   color: #F67E7E;
 }
 
