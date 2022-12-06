@@ -211,5 +211,53 @@ ol[class] {
   color: var(--footer-bg-color);
   background-color: var(--main-text-color);
   border: 2px solid var(--main-text-color);
+}
 
+
+.hero-section{
+  padding-top: 56px;
+  padding-bottom: 250px;
+  background-color: var(--hero-bg-color);
+  background-image: url(../assets/images/disk-left.png), url(../assets/images/hero-disk-bottom.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 715px) calc(50% - 105px), calc(50% + 370px) calc(50% + 203px);
+}
+
+.hero-section__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section__title{
+  width: 615px;
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: var(--main-text-color);
+}
+
+.hero-section__title>span{
+  color: var(--build-section-title-color);
+}
+
+.hero-section-desc{
+  width: 445px;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+.hero-end{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.line{
+  width: 50px;
+  height: 4px;
+  margin-bottom: 79px;
+  background-color: #79C8C7;
 }
