@@ -1,43 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Describe your site">
-    <meta name="keywords" content="Keywords, for, search">
-    <link rel="icon" href="favicon.svg"> <!-- svg file for icon, Chrome, Firefox, Edge!-->
-    <link rel="mask-icon" href="favicon.svg"> <!-- svg file for icon, Safari-->
-    <link rel="stylesheet" href="./scss/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Describe your site" />
+    <meta name="keywords" content="Keywords, for, search" />
+    <link rel="icon" href="favicon.svg" />
+    <!-- svg file for icon, Chrome, Firefox, Edge!-->
+    <link rel="mask-icon" href="favicon.svg" />
+    <!-- svg file for icon, Safari-->
+    <link rel="stylesheet" href="./scss/style.css" />
     <title>Site name</title>
-    <link rel="stylesheet" href="./scss/normalize.css">
-    <link rel="stylesheet" href="./scss/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./scss/normalize.css" />
+    <link rel="stylesheet" href="./scss/style.css" />
+  </head>
+  <body>
     <!-- Header Start -->
     <header class="site-header">
-        <div class="container">
-            <div class="header-wrapper">
-                <div class="header-start">
-                    <a href="./index.html">
-                    <img src="./assets/logo/header-logo.svg" alt="myteam" width="160" height="40">
-                    </a>
-                    <a class="header-start-link" href="#">home</a>
-                    <a class="header-start-link" href="#">about</a>
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-start">
+            <a href="./index.html">
+              <img
+                src="./assets/logo/header-logo.svg"
+                alt="myteam"
+                width="160"
+                height="40"
+              />
+            </a>
+            <a class="header-start-link" href="#">home</a>
+            <a class="header-start-link" href="#">about</a>
+          </div>
+          <div class="header-end">
+            <button class="header-btn" type="button">contact us</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <main>
+        <section class="delivering">
+            <div class="container">
+                <div class="delivering-content">
+                    <h2 class="delivering-content__title section-title">Delivering real results for top companies. Some of our <span>success stories.</span></h2>
+                    <ul class="delivering-content__card-list">
+                        <li class="delivering-content__card-list__item">
+                            <blockquote>
+                                <p class="__text">“The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</p>
+                                <figcaption>
+                                    <span class="__author">Kady Baker</span>
+                                    <span class="__author-job">Product Manager at Bookmark</span>
+                                </figcaption>
+                                
+                                <div class="__imgbox">
+                                    <img srcset="./assets/images/user-kady.png 1x, ./assets/images/user-kady@2x.png 2x" alt="kady image" loading="eager">
+                                </div>
+                            </blockquote>
+                        </li>
+                        <li class="delivering-content__card-list__item">
+                            <blockquote>
+                                <p class="__text">“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”</p>
+                                <figcaption>
+                                    <span class="__author">Aiysha Reese</span>
+                                    <span class="__author-job">Founder of Manage</span>
+                                </figcaption>
+                                
+                                <div class="__imgbox">
+                                    <img srcset="./assets/images/user-aiysha.png 1x, ./assets/images/user-aiysha@2x.png 2x" alt="aishya image" loading="eager">
+                                </div>
+                            </blockquote>
+                        </li>
+                        <li class="delivering-content__card-list__item">
+                            <blockquote>
+                                <p class="__text">“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”</p>
+                                <figcaption>
+                                    <span class="__author">Arthur Clarke</span>
+                                    <span class="__author-job">Co-founder of MyPhysio</span>
+                                </figcaption>
+                                
+                                <div class="__imgbox">
+                                    <img srcset="./assets/images/user-arthur.png 1x, ./assets/images/user-arthur@2x.png 2x" alt="kady image" loading="eager">
+                                </div>
+                            </blockquote>
+                        </li>
+                    </ul>
+                    <img class="delivering-content__decor1" src="./assets/decors/deliver-left-bg@2x.svg" alt="decor" loading="eager">
+                    <img class="delivering-content__decor2" src="./assets/decors/deliver__right.svg" alt="decor" loading="eager">
                 </div>
-                <div class="header-end">
-                    <button class="header-btn" type="button">contact us</button>
+            </div>
+        </section>
+
+        <section class="ready">
+            <div class="container">
+                <div class="ready-content">
+                    <h2 class="ready-content__title section-title">Ready to get started?</h2>
+                    <a class="ready-content__btn btn" href="#">contact us</a>
+                    <img class="ready-content__decor" src="assets/decors/ready-decor.svg" alt="decor" loading="eager">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content__leftside">
+                    <div class="footer-content__leftside__logo-nav">
+                        <a class="footer-content__leftside__logo-link logo-link" href="index.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" fill="none">
+                                <path fill="#fff" fill-rule="evenodd" d="M68.317 29.531V13.214H72.7V8.192h-4.383V0h-6.17v8.192h-3.793v5.022h3.793v16.317h6.17ZM6.214 18.237V29.53H0V8.192h6.214v3.103c.508-1.101 1.235-1.972 2.18-2.612a6.251 6.251 0 0 1 3.27-.915c3.3 0 5.53 1.25 6.694 3.75 1.526-2.53 3.597-3.795 6.213-3.795s4.615.841 5.996 2.522c1.38 1.682 2.071 4.07 2.071 7.166v12.12H26.49V18.147c0-1.31-.313-2.343-.938-3.102-.654-.76-1.511-1.139-2.572-1.139-1.061 0-1.912.357-2.551 1.072-.64.714-.96 1.8-.96 3.259V29.53h-6.213V18.013c-.058-1.28-.4-2.284-1.025-3.013-.64-.73-1.468-1.094-2.485-1.094-1.018 0-1.86.35-2.53 1.05-.668.699-1.002 1.793-1.002 3.28ZM57.498 8.192 44.635 40h-6.563l5.015-12.656-8.045-19.152h6.606l4.6 12.098 4.644-12.098h6.606Zm37.794 17.455c-1.933 2.902-5.109 4.346-9.527 4.33-3.067 0-5.654-1.034-7.762-3.102-2.079-2.098-3.118-4.792-3.118-8.08 0-3.289 1.04-5.96 3.118-8.014 2.079-2.053 4.651-3.073 7.718-3.058 3.067 0 5.618 1.042 7.653 3.125 2.035 2.083 3.06 4.792 3.074 8.125 0 .03-.03.685-.087 1.965H81.077c.116 1.13.683 2.008 1.7 2.633 1.018.625 2.166.938 3.445.938 1.992 0 3.51-.67 4.557-2.009l4.513 3.147Zm-5.102-8.683h-9.026c.233-1.16.814-2.068 1.745-2.723.9-.655 1.874-.967 2.921-.937a4.987 4.987 0 0 1 2.856.982c.858.625 1.36 1.518 1.504 2.678Zm22.898 12.255c-1.177.506-2.303.744-3.379.714-2.863 0-5.349-1.027-7.456-3.08-2.108-2.054-3.162-4.725-3.162-8.014 0-3.288 1.09-5.96 3.271-8.013 2.18-2.054 4.629-3.088 7.347-3.103 1.105 0 2.238.246 3.401.737 1.163.49 2.057 1.19 2.682 2.098V8.192h6.148v21.34h-6.148v-2.434c-.625.908-1.526 1.615-2.704 2.12Zm-2.376-5.313c-1.41 0-2.624-.476-3.641-1.428-1.047-.953-1.57-2.158-1.57-3.616 0-1.444.523-2.657 1.57-3.639 1.134-.967 2.376-1.45 3.728-1.45 1.352 0 2.522.476 3.51 1.428.989.952 1.483 2.172 1.483 3.66 0 1.489-.494 2.701-1.483 3.639-.988.938-2.187 1.406-3.597 1.406Zm22.81-5.67v11.295h-6.213V8.192h6.213v3.103c.509-1.101 1.236-1.972 2.181-2.612a6.248 6.248 0 0 1 3.27-.915c3.299 0 5.531 1.25 6.693 3.75 1.527-2.53 3.598-3.795 6.214-3.795 2.616 0 4.615.841 5.996 2.522 1.38 1.682 2.071 4.07 2.071 7.166v12.12h-6.148V18.147c0-1.31-.313-2.343-.938-3.102-.654-.76-1.511-1.139-2.573-1.139-1.061 0-1.911.357-2.55 1.072-.64.714-.96 1.8-.96 3.259V29.53h-6.213V18.013c-.059-1.28-.4-2.284-1.025-3.013-.64-.73-1.468-1.094-2.486-1.094-1.017 0-1.86.35-2.529 1.05-.668.699-1.003 1.793-1.003 3.28Z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
+
+                            <ul class="footer-content__leftside__nav-list nav-list">
+                                <li class="footer-content__leftside__nav-list__item nav-item">
+                                    <a class="footer-content__leftside__nav-list__link nav-link" href="index.html">home</a>
+                                </li>
+                                <li class="footer-content__leftside__nav-list__item nav-item">
+                                    <a class="footer-content__leftside__nav-list__link nav-link" href="./pages/about/index.html">about</a>
+                                </li>
+                            </ul>
+                    </div>
+                    <address>
+                        <span>987 Hillcrest Lane</span>
+                        <span>Irvine, CA</span>
+                        <span>California 92714</span>
+                        <span>Call Us: 949-833-7432</span>
+                    </address>
+                </div>
+                <div class="footer-content__rightside">
+                    <div class="footer-content__rightside__social">
+                        <a class="footer-content__rightside__social-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                                <path fill="#fff" d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0Z"/>
+                            </svg>
+                        </a>
+                            <a class="footer-content__rightside__social-link" href="#"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                                <path fill="#fff" d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12Z"/>
+                                </svg>
+                    </a>
+                        <a class="footer-content__rightside__social-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" fill="none">
+                                <path fill="#fff" d="M24 2.557a9.83 9.83 0 0 1-2.828.775A4.932 4.932 0 0 0 23.337.608a9.864 9.864 0 0 1-3.127 1.195A4.916 4.916 0 0 0 16.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 1.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 17.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 2.557Z"/>
+                            </svg>
+                        </a>
+                       
+                    </div>
+                    <span class="footer-content__rightside__copy">
+                        Copyright 2020. All Rights Reserved
+                    </span>
                 </div>
             </div>
         </div>
-    </header>
-    <!-- Header End -->
-    <main></main>
+    </footer>
+    </main>
     <footer>
-        <div class="container">
-
-        </div>
+      <div class="container"></div>
     </footer>
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
