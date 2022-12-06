@@ -214,7 +214,80 @@ ol[class] {
 }
 
 /* BUILD & MANAGE UCHUN */
+.build {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-image: url("../assets/icons/built_bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 700px) bottom;
+  background-color: var(--build-section-bg-color);
+}
+.build_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.build_title {
+  width: 455px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--main-text-color);
+}
+.build_title::before {
+  display: block;
+  width: 50px;
+  height: 4px;
+  margin-bottom: 54px;
+  background-color: var(--build-section-title-color);
+  content: "";
+}
+.build_list {
+  width: 540px;
+  margin-top: 54px;
+}
+.build_list_item {
+  position: relative;
+  margin-bottom: 32px;
+  padding-left: 95px;
+}
+.build_list_item::before {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  padding-right: 72px;
+  margin-right: 23px;
+  background-image: url("../assets/icons/first.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  content: "";
+}
+.build_list_item:nth-child(2)::before {
+  background-image: url("../assets/icons/secont.svg");
+}
+.build_list_item:nth-child(3)::before {
+  background-image: url("../assets/icons/third.svg");
+}
 
+.build_item_title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--build-section-title-color);
+}
+.build_item_desc {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--main-text-color);
+  opacity: 0.8;
+}
 /* BUILD & MANAGE UCHUN */
 
 main .delivering {
