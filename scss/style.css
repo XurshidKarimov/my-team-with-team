@@ -160,6 +160,66 @@ ol[class] {
   padding: 0;
 } /*# sourceMappingURL=style.css.map */
 
+.nav-list {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: row;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-transform: none;
+  color: #ffffff;
+  transition: linear 0.3s;
+}
+
+.btn {
+  padding: 10px 32px;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  background-color: transparent;
+  transition: linear 0.3s;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-transform: none;
+  color: inherit;
+}
+
+.line {
+  width: 50px;
+  height: 4px;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: none;
+  color: #ffffff;
+}
+
+.content-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: none;
+  color: #f67e7e;
+}
+
+.content-subtitle {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-transform: none;
+  color: #ffffff;
+}
+
 .container {
   max-width: 1150px;
   width: 100%;
