@@ -1,3 +1,30 @@
+/* livvic-600 - latin */
+@font-face {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+  url('../fonts/livvic-v13-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/livvic-v13-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* livvic-700 - latin */
+@font-face {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+  url('../fonts/livvic-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/livvic-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+:root{
+  --hero-bg-color:#014E56;
+  --build-section-bg-color:#012F34;
+  --footer-bg-color:#002529;
+  --main-text-color:#FFFFFF;
+  --build-section-title-color:#F67E7E;  
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -25,6 +52,9 @@ a:active {
 }
 
 body {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
@@ -129,3 +159,57 @@ ul[class],
 ol[class] {
   padding: 0;
 }/*# sourceMappingURL=style.css.map */
+
+.container{
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.site-header{
+  padding-top: 73px;
+  padding-bottom: 73px;
+  background-color: var(--hero-bg-color);
+}
+
+.header-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-start{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 380px;
+}
+
+.header-start-link{
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+
+.header-start-link:active{
+  color: var(--build-section-title-color);
+}
+
+.header-btn{
+  padding: 9px 33px 11px 32px;
+  font-size: 18px;
+  line-height: 28px;
+  color:var(--main-text-color);
+  background-color: transparent;
+  border: 2px solid var(--main-text-color);
+  border-radius: 24px;
+}
+
+.header-btn:active{
+  color: var(--footer-bg-color);
+  background-color: var(--main-text-color);
+  border: 2px solid var(--main-text-color);
+
+}
