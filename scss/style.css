@@ -169,6 +169,9 @@ ol[class] {
 }
 
 .site-header{
+  position: fixed;
+  width: 100%;
+  top: 0;
   padding-top: 73px;
   padding-bottom: 73px;
   background-color: var(--hero-bg-color);
@@ -183,11 +186,14 @@ ol[class] {
 .header-start{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 380px;
+}
+
+.header-logo-img{
+  margin-right: 80px;
 }
 
 .header-start-link{
+  margin-right: 40px;
   font-size: 18px;
   line-height: 28px;
   color: var(--main-text-color);
@@ -215,12 +221,12 @@ ol[class] {
 
 
 .hero-section{
-  padding-top: 56px;
+  padding-top: 246px;
   padding-bottom: 250px;
   background-color: var(--hero-bg-color);
   background-image: url(../assets/images/disk-left.png), url(../assets/images/hero-disk-bottom.png);
   background-repeat: no-repeat;
-  background-position: calc(50% - 715px) calc(50% - 105px), calc(50% + 370px) calc(50% + 203px);
+  background-position: calc(50% - 715px) calc(50% - 15px), calc(50% + 370px) calc(50% + 298px);
 }
 
 .hero-section__wrapper{
