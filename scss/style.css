@@ -466,7 +466,14 @@ main .ready-content__btn {
   color: #012f34;
   border-color: #012f34;
   background-color: transparent;
+  transition: linear .3s;
 }
+
+main .ready-content__btn:hover {
+  background-color: #012F34;
+  color: #FFFFFF;
+}
+
 main .ready-content__decor {
   position: absolute;
   top: 65px;
@@ -494,6 +501,11 @@ footer .footer-content__leftside {
 footer .footer-content__leftside__logo-link {
   margin-bottom: 25px;
 }
+
+.footer-content__leftside__nav-list__link nav-link:hover{
+  color: #F67E7E;
+}
+
 footer .footer-content__leftside address span {
   display: block;
   font-size: 15px;
@@ -523,6 +535,10 @@ footer .footer-content__rightside__social {
 }
 footer .footer-content__rightside__social a svg path {
   fill: #ffffff;
+}
+
+footer .footer-content__rightside__social a:hover>svg path{
+  fill: #F67E7E;
 }
 footer .footer-content__rightside__copy {
   font-size: 15px;
