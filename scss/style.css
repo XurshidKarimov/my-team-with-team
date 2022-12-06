@@ -503,6 +503,7 @@ footer .footer-content__leftside__logo-link {
 }
 
 .footer-content__leftside__nav-list__link:hover{
+  transition: linear .3s;
   color: #F67E7E;
 }
 
