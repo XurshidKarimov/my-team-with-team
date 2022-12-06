@@ -382,7 +382,7 @@ main .delivering-content__card-list__item {
 main .delivering-content__card-list__item:before {
   content: "“";
   position: absolute;
-  top: -20px;
+  top: -39px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 220px;
