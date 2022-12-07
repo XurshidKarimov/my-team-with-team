@@ -625,11 +625,16 @@ footer .footer-content__rightside__copy {
     padding: 55px 25px 0px 25px;
     min-height: 100vh;
     background-color: #79c8c7;
-    transition: linear 0.3s;
   }
 
   #hamburger-menu.open {
-    right: 0%;
+    animation: h-anime 0.3s linear forwards;
+  }
+
+  @keyframes h-anime {
+    100% {
+      right: 0%;
+    }
   }
 
   #hamburger-menu.close {
@@ -650,6 +655,18 @@ footer .footer-content__rightside__copy {
 
   .hamburger-menu-list li a {
     color: white;
+  }
+
+  body.opac {
+    overflow-y: hidden;
+  }
+
+  #shadow.active {
+    position: absolute;
+    transition: linear 0.3s;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vh;
+    height: 100vh;
   }
 
   .build {
