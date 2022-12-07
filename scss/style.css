@@ -661,5 +661,61 @@ footer .footer-content__rightside__copy {
 }
 
 @media only screen and (max-width: 767px) {
-  /* TELEFON */
+  .build {
+    padding: 64px 24px;
+    background-image: url("../assets/icons/build_bg.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 235px) calc(50% - 405px);
+    background-color: var(--build-section-bg-color);
+  }
+
+  .build_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .build_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 64px;
+    text-align: left;
+    max-width: 240px;
+  }
+  .build_item_title {
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  .build_item_desc {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+
+  .build_list_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .build_list_item::before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 72px;
+    height: 72px;
+    background-image: url("../assets/icons/first.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 16px;
+  }
 }
