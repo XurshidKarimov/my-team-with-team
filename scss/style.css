@@ -601,12 +601,6 @@ footer .footer-content__rightside__copy {
 }
 
 @media screen and (max-width: 992px) {
-  /* TABLET */
-}
-
-@media only screen and (max-width: 767px) {
-  /* TELEFON */
-
   .build {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -660,4 +654,10 @@ footer .footer-content__rightside__copy {
     background-position: left center;
     content: "";
   }
+}
+
+@media only screen and (max-width: 767px) {
+  /* TELEFON */
+
+ 
 }
