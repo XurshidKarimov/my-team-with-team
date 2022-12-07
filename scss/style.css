@@ -354,7 +354,7 @@ main .main-page__content .main-page__decor-element2 {
   content: "";
 }
 .build_list {
-  width: 540px;
+  max-width: 565px;
   margin-top: 54px;
 }
 .build_list_item {
@@ -602,12 +602,10 @@ footer .footer-content__rightside__copy {
 
 @media screen and (max-width: 992px) {
   .build {
-    padding-top: 64px;
-    padding-bottom: 64px;
-    padding-left: 24px;
-    background-image: url("../assets/icons/built_bg.svg");
+    padding: 100px 98px 100px 98px;
+    background-image: url("../assets/icons/build_bg.svg");
     background-repeat: no-repeat;
-    background-position: calc(50% + 385px) calc(50% - 430px);
+    background-position: calc(50% + 455px) calc(50% - 245px);
     background-color: var(--build-section-bg-color);
   }
 
@@ -619,14 +617,15 @@ footer .footer-content__rightside__copy {
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
-    margin-bottom: 144px;
+    margin-bottom: 64px;
+    text-align: left;
   }
   .build_item_title {
     position: relative;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 8px;
   }
 
@@ -634,30 +633,33 @@ footer .footer-content__rightside__copy {
     font-weight: 600;
     font-size: 15px;
     line-height: 25px;
-    text-align: center;
+    text-align: left;
     color: #ffffff;
     mix-blend-mode: normal;
     opacity: 0.8;
-    margin-bottom: 136px;
   }
+
+  .build_list_item {
+    display: grid;
+    grid-template-columns: 72px 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 23px;
+    padding-left: 0;
+  }
+
   .build_list_item::before {
-    position: absolute;
-    top: -84px;
-    left: 283px;
-    display: inline-block;
+    content: "";
+    grid-row: span 2;
+    position: relative;
+    display: block;
     width: 72px;
     height: 72px;
-    padding-right: 72px;
-    margin-bottom: 16px;
     background-image: url("../assets/icons/first.svg");
     background-repeat: no-repeat;
     background-position: left center;
-    content: "";
   }
 }
 
 @media only screen and (max-width: 767px) {
   /* TELEFON */
-
- 
 }
