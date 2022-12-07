@@ -658,7 +658,7 @@ footer .footer-content__rightside__copy {
   }
 
   body.opac {
-    overflow-y: hidden;
+    overflow: hidden;
   }
 
   #shadow.active {
