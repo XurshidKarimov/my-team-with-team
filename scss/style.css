@@ -598,3 +598,11 @@ footer .footer-content__rightside__copy {
   color: #ffffff;
   opacity: 0.6;
 }
+
+@media screen and (max-width: 992px) {
+  /* TABLET */
+}
+
+@media screen and (max-width: 767px) {
+ /* TELEFON */
+}
