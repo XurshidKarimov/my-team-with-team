@@ -274,7 +274,54 @@ ol[class] {
   background-color: var(--main-text-color);
   border: 2px solid var(--main-text-color);
 }
-
+main .main-page {
+  background-color: #014E56;
+  padding-top: 120px;
+  overflow-y: hidden;
+}
+main .main-page__content {
+  padding-top: 130px;
+  padding-bottom: 250px;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: row;
+}
+main .main-page__content__title {
+  max-width: 620px;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  text-transform: none;
+  color: #FFFFFF;
+}
+main .main-page__content__title span {
+  color: #F67E7E;
+}
+main .main-page__content__rightside .main-page__line {
+  background-color: #79C8C7;
+  margin-bottom: 80px;
+}
+main .main-page__content__subtitle {
+  max-width: 445px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-transform: none;
+  color: #FFFFFF;
+}
+main .main-page__content .main-page__decor-element1, main .main-page__content .main-page__decor-element2 {
+  position: absolute;
+}
+main .main-page__content .main-page__decor-element1 {
+  top: 120px;
+  left: -225px;
+}
+main .main-page__content .main-page__decor-element2 {
+  bottom: -105px;
+  right: 0;
+}
 /* BUILD & MANAGE UCHUN */
 .build {
   padding-top: 140px;
