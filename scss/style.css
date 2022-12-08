@@ -599,7 +599,7 @@ footer .footer-content__rightside__copy {
   opacity: 0.6;
 }
 
-@media only screen and(min-width: 1px) {
+@media only screen and (min-width: 1px) {
   .container {
     max-width: 100%;
   }
@@ -777,7 +777,6 @@ footer .footer-content__rightside__copy {
     margin-bottom: 16px;
   }
 }
-
 
 @media only screen and (min-width: 768px) {
   .container {
