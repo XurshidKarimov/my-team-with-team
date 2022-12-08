@@ -1000,7 +1000,7 @@ footer .footer-content__rightside__copy {
   }
 
   main .delivering-content__title {
-    /* max-width: 930px; */
+    margin-top: 40px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 55px;
