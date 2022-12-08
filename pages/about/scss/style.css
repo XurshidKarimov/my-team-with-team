@@ -528,4 +528,14 @@ footer .footer-content__rightside__copy {
   text-transform: none;
   color: #FFFFFF;
   opacity: 0.6;
-}/*# sourceMappingURL=style.css.map */
+}
+
+
+@media only screen and (min-width: 1px){
+/*  telefon uchun  */
+}
+
+@media only screen and (min-width: 768px){
+/*  tablet uchun  */
+}
+
