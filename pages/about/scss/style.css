@@ -351,6 +351,11 @@ main .directors-content__cardblock-item__user-info {
   flex-direction: column;
   row-gap: 13px;
 }
+
+main .directors-content__cardblock-item__user-info.dsp-none {
+  display: none;
+}
+
 main .directors-content__cardblock-item__user-info .imgbox {
   width: 95px;
   height: 95px;
@@ -367,14 +372,46 @@ main .directors-content__cardblock-item__user-info figcaption {
   justify-content: flex-start;
   flex-direction: column;
 }
+
+main .directors-content__cardblock-item__user-info figcaption span:first-child,
+main .directors-content__cardblock-item__user-desc figcaption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
+main .directors-content__cardblock-item__user-desc__user-quote__text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+main
+  .directors-content__cardblock-item__user-info
+  figcaption
+  span:nth-child(2) {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
 main .directors-content__cardblock-item__user-desc {
+  display: none;
+}
+
+main .directors-content__cardblock-item__user-desc.dsp-flex {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   row-gap: 25px;
-  display: none;
 }
+
 main .directors-content__cardblock-item__user-desc__user-quote {
   display: flex;
   align-items: center;
@@ -410,7 +447,14 @@ main .directors-content__cardblock-item .circle-bg {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
+  transition: linear 0.2s;
 }
+
+main .directors-content__cardblock-item .circle-bg.rotate {
+  background-color: #79c8c7;
+  transform: translate(-50%, 50%) rotate(45deg);
+}
+
 main .directors-content__decor1,
 main .directors-content__decor2 {
   position: absolute;
@@ -596,6 +640,16 @@ footer .footer-content__rightside__copy {
   main .directors-content__title {
     font-size: 32px;
     line-height: 32px;
+    margin-bottom: 50px;
+  }
+
+  main .directors-content__cardblock {
+    justify-content: center;
+  }
+
+  main .directors-content__cardblock-item {
+    width: 281px;
+    min-height: 281px;
   }
 }
 
