@@ -867,6 +867,7 @@ footer .footer-content__rightside__copy {
 
   main .clients-content__title {
     font-size: 31px;
+    text-align: center;
   }
   main .clients-content__clientsblock {
     flex-direction: column;
