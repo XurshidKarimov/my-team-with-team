@@ -338,11 +338,12 @@ main .directors-content__cardblock {
   flex-wrap: wrap;
 }
 main .directors-content__cardblock-item {
-  width: 350px;
+  flex-basis: calc(100% / 3 - 25px);
   min-height: 250px;
   padding: 30px 25px 55px;
   background-color: #002529;
   position: relative;
+  flex-wrap: nowrap;
 }
 main .directors-content__cardblock-item__user-info {
   display: flex;
@@ -631,7 +632,8 @@ footer .footer-content__rightside__copy {
   }
 
   main .directors-content {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 130px;
   }
 
   main .directors-content__decor1 {
@@ -648,11 +650,88 @@ footer .footer-content__rightside__copy {
   }
 
   main .directors-content__cardblock-item {
-    width: 281px;
+    flex-basis: calc(50% - 25px);
     min-height: 281px;
+  }
+
+  main .directors-content__decor2 {
+    right: -40px;
+  }
+  main .clients {
+    padding: 100px 0;
+  }
+  main .clients-content__decor {
+    top: -245px;
+    left: -40px;
+  }
+
+  main .clients-content__title {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  main .clients-content__clientsblock img {
+    width: calc(690px / 5 - 20px);
+  }
+
+  main .ready-content__title {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  main .ready-content {
+    max-width: 575px;
+    align-items: center;
+  }
+
+  main .ready-content__decor {
+    top: 80px;
+    left: -100px;
+  }
+
+  footer .footer-content {
+    flex-direction: column;
+  }
+
+  footer .footer-content__leftside {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+
+  footer .footer-content__leftside__logo-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  footer .footer-content__leftside__logo-link {
+    width: 96px;
+    height: 24px;
+    margin: 0;
+  }
+  footer .footer-content__leftside__logo-link img {
+    width: 100%;
+    height: 100%;
+  }
+
+  footer address {
+    text-align: right;
+    margin: 0;
+  }
+
+  footer .footer-content__rightside {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
   }
 }
 
-@media only screen and (min-width: 768px) {
-  /*  tablet uchun  */
+@media only screen and (max-width: 767.98px) {
+  
 }
