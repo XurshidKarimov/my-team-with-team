@@ -135,35 +135,40 @@ ol[class] {
   font-family: "Livvic";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/livvic-v13-latin-regular.woff2"), url("../fonts/livvic-v13-latin-regular.woff");
+  src: url("../fonts/livvic-v13-latin-regular.woff2"),
+    url("../fonts/livvic-v13-latin-regular.woff");
 }
 /* livvic-500italic - latin */
 @font-face {
   font-family: "Livvic";
   font-style: italic;
   font-weight: 500;
-  src: url("../fonts/livvic-v13-latin-500italic.woff2"), url("../fonts/livvic-v13-latin-500italic.woff");
+  src: url("../fonts/livvic-v13-latin-500italic.woff2"),
+    url("../fonts/livvic-v13-latin-500italic.woff");
 }
 /* livvic-600 - latin */
 @font-face {
   font-family: "Livvic";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/livvic-v13-latin-600.woff2"), url("../fonts/livvic-v13-latin-600.woff");
+  src: url("../fonts/livvic-v13-latin-600.woff2"),
+    url("../fonts/livvic-v13-latin-600.woff");
 }
 /* livvic-700 - latin */
 @font-face {
   font-family: "Livvic";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/livvic-v13-latin-700.woff2"), url("../fonts/livvic-v13-latin-700.woff");
+  src: url("../fonts/livvic-v13-latin-700.woff2"),
+    url("../fonts/livvic-v13-latin-700.woff");
 }
 /* livvic-700italic - latin */
 @font-face {
   font-family: "Livvic";
   font-style: italic;
   font-weight: 700;
-  src: url("../fonts/livvic-v13-latin-700italic.woff2"), url("../fonts/livvic-v13-latin-700italic.woff");
+  src: url("../fonts/livvic-v13-latin-700italic.woff2"),
+    url("../fonts/livvic-v13-latin-700italic.woff");
 }
 body {
   font-family: "Livvic", sans-serif;
@@ -176,12 +181,12 @@ body {
 ul {
   display: flex;
   -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 
 .logo-link svg path {
-  fill: #FFFFFF;
-  fill: #FFFFFF;
+  fill: #ffffff;
+  fill: #ffffff;
 }
 
 .dsp-none {
@@ -194,7 +199,7 @@ ul {
   justify-content: flex-start;
   flex-direction: row;
   -moz-column-gap: 40px;
-       column-gap: 40px;
+  column-gap: 40px;
 }
 
 .nav-link {
@@ -202,13 +207,13 @@ ul {
   font-weight: 600;
   line-height: 28px;
   text-transform: none;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: linear 0.3s;
 }
 
 .btn {
   padding: 10px 32px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   border-radius: 25px;
   background-color: transparent;
   transition: linear 0.3s;
@@ -229,7 +234,7 @@ ul {
   font-weight: 700;
   line-height: 48px;
   text-transform: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .container {
@@ -243,7 +248,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 99999;
-  background-color: #014E56;
+  background-color: #014e56;
 }
 header .header-content {
   display: flex;
@@ -258,16 +263,16 @@ header .header-content__leftside {
   justify-content: flex-start;
   flex-direction: row;
   -moz-column-gap: 80px;
-       column-gap: 80px;
+  column-gap: 80px;
 }
 header .header-content__contact-btn {
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  border-color: #ffffff;
+  color: #ffffff;
   background-color: transparent;
 }
 header .header-content__contact-btn:hover {
-  background-color: #FFFFFF;
-  color: #012F34;
+  background-color: #ffffff;
+  color: #012f34;
 }
 header .header-content__contact-btn:active {
   background-color: transparent;
@@ -278,7 +283,7 @@ header .header-content__contact-btn:active {
 main .main-page {
   padding-top: 240px;
   padding-bottom: 120px;
-  background-color: #014E56;
+  background-color: #014e56;
   overflow-x: hidden;
 }
 main .main-page .main-page__content {
@@ -291,10 +296,10 @@ main .main-page .main-page__content__title {
   font-weight: 700;
   line-height: 100px;
   text-transform: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 main .main-page .main-page__content__rightside .line {
-  background-color: #F67E7E;
+  background-color: #f67e7e;
   margin-bottom: 40px;
 }
 main .main-page .main-page__content__subtitle {
@@ -303,7 +308,7 @@ main .main-page .main-page__content__subtitle {
   font-weight: 600;
   line-height: 28px;
   text-transform: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 main .main-page .main-page__content-decore {
   position: absolute;
@@ -328,7 +333,7 @@ main .directors-content__cardblock {
   justify-content: flex-start;
   flex-direction: row;
   -moz-column-gap: 25px;
-       column-gap: 25px;
+  column-gap: 25px;
   row-gap: 75px;
   flex-wrap: wrap;
 }
@@ -350,7 +355,7 @@ main .directors-content__cardblock-item__user-info .imgbox {
   width: 95px;
   height: 95px;
   border-radius: 50%;
-  border: 2px solid #C4FFFE;
+  border: 2px solid #c4fffe;
 }
 main .directors-content__cardblock-item__user-info .imgbox img {
   width: 100%;
@@ -388,7 +393,7 @@ main .directors-content__cardblock-item__user-desc__social {
   justify-content: flex-start;
   flex-direction: row;
   -moz-column-gap: 15px;
-       column-gap: 15px;
+  column-gap: 15px;
 }
 main .directors-content__cardblock-item .circle-bg {
   width: 55px;
@@ -398,7 +403,7 @@ main .directors-content__cardblock-item .circle-bg {
   justify-content: center;
   flex-direction: row;
   border-radius: 50%;
-  background-color: #F67E7E;
+  background-color: #f67e7e;
   transition: linear 0.2s;
   cursor: pointer;
   position: absolute;
@@ -406,7 +411,8 @@ main .directors-content__cardblock-item .circle-bg {
   left: 50%;
   transform: translate(-50%, 50%);
 }
-main .directors-content__decor1, main .directors-content__decor2 {
+main .directors-content__decor1,
+main .directors-content__decor2 {
   position: absolute;
 }
 main .directors-content__decor1 {
@@ -419,7 +425,7 @@ main .directors-content__decor2 {
 }
 main .clients {
   padding: 140px 0;
-  background-color: #012F34;
+  background-color: #012f34;
   overflow-x: hidden;
 }
 main .clients-content {
@@ -443,7 +449,7 @@ main .clients-content__decor {
   left: -135px;
 }
 main .ready {
-  background-color: #F67E7E;
+  background-color: #f67e7e;
   overflow-y: hidden;
 }
 main .ready-content {
@@ -457,11 +463,11 @@ main .ready-content {
   flex-direction: row;
 }
 main .ready-content__title {
-  color: #012F34;
+  color: #012f34;
 }
 main .ready-content__btn {
-  color: #012F34;
-  border-color: #012F34;
+  color: #012f34;
+  border-color: #012f34;
   background-color: transparent;
 }
 main .ready-content__decor {
@@ -486,7 +492,7 @@ footer .footer-content__leftside {
   justify-content: flex-start;
   flex-direction: row;
   -moz-column-gap: 125px;
-       column-gap: 125px;
+  column-gap: 125px;
 }
 footer .footer-content__leftside__logo-link {
   margin-bottom: 25px;
@@ -497,7 +503,7 @@ footer .footer-content__leftside address span {
   font-weight: 600;
   line-height: 25px;
   text-transform: none;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.6;
   font-style: normal;
 }
@@ -516,26 +522,83 @@ footer .footer-content__rightside__social {
   justify-content: flex-start;
   flex-direction: row;
   -moz-column-gap: 15px;
-       column-gap: 15px;
+  column-gap: 15px;
 }
 footer .footer-content__rightside__social a svg path {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 footer .footer-content__rightside__copy {
   font-size: 15px;
   font-weight: 600;
   line-height: 25px;
   text-transform: none;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.6;
 }
 
+@media only screen and (max-width: 991.98px) {
+  .container {
+    max-width: 770px;
+    padding: 0 40px;
+  }
 
-@media only screen and (min-width: 1px){
-/*  telefon uchun  */
+  header .header-content {
+    padding: 32px 0;
+  }
+
+  main .main-page {
+    padding-top: 225px;
+  }
+
+  .logo-link {
+    width: 128px;
+    height: 32px;
+  }
+
+  .logo-link img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .main-page__content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  main .main-page .main-page__content__title {
+    line-height: 56px;
+    margin-bottom: 25px;
+  }
+
+  main .main-page .main-page__content__subtitle {
+    max-width: 455px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  main .main-page .main-page__content-decore {
+    right: -140px;
+  }
+
+  main .directors-content {
+    padding: 100px 0;
+  }
+
+  main .directors-content__decor1 {
+    left: -140px;
+  }
+  main .directors-content__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
 }
 
-@media only screen and (min-width: 768px){
-/*  tablet uchun  */
+@media only screen and (min-width: 768px) {
+  /*  tablet uchun  */
 }
-
