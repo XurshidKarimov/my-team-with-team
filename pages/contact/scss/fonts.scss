@@ -1,0 +1,58 @@
+/* livvic-regular - latin */
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/livvic-v13-latin-regular.woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/livvic-v13-latin-regular.woff')
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* livvic-500italic - latin */
+@font-face {
+    font-family: 'Livvic';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/livvic-v13-latin-500italic.woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/livvic-v13-latin-500italic.woff')
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* livvic-600 - latin */
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/livvic-v13-latin-600.woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/livvic-v13-latin-600.woff')
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* livvic-700 - latin */
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/livvic-v13-latin-700.woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/livvic-v13-latin-700.woff')
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* livvic-700italic - latin */
+@font-face {
+    font-family: 'Livvic';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/livvic-v13-latin-700italic.woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/livvic-v13-latin-700italic.woff')
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+}
